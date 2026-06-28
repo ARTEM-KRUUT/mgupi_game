@@ -218,11 +218,11 @@ img{max-width:100%}
   .stats{grid-template-columns:1fr;gap:12px}
   /* epochs → stacked, fits 100vh */
   .epochs-track{height:560vh}
-  .epochs-inner{display:flex;flex-direction:column;justify-content:center;height:100vh;padding:64px 18px 36px;gap:10px}
+  .epochs-inner{display:flex;flex-direction:column;justify-content:center;height:100vh;padding:60px 18px 32px;gap:8px}
   .ep-left{position:static;transform:none;left:auto;width:100%;display:flex;flex-direction:column;gap:10px}
   .ep-right{position:relative;width:100%;height:auto;box-shadow:none;border-radius:12px}
   .ep-counter{font-size:20px;margin-bottom:0}
-  .ep-timeline{display:flex;gap:7px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  .ep-timeline{display:flex;flex-wrap:wrap;gap:7px 6px;padding-bottom:2px}
   .ep-rail,.ep-rail-fill{display:none}
   .ep-item{padding:5px 11px;border:1px solid var(--grey);border-radius:50px;white-space:nowrap;flex:0 0 auto}
   .ep-item .dot{display:none}
